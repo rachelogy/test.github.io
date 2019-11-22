@@ -1,16 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Audiowide|Exo+2);
 
-body{
-	padding: 20px;
+body {
+  padding: 20px;
 }
 
 header {
-	font-family: 'Audiowide', cursive;
-	font-size: 22px;
-	color: blue;
+  font-family: 'Audiowide', cursive;
+  font-size: 22px;
+  color: blue;
 }
 
 p {
-    font-family: 'Scada', sans-serif;
-    font-size: 12pt;
+  font-family: 'Scada', sans-serif;
+  font-size: 12pt;
 }
