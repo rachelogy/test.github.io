@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<!-- <head>
-	<script src='myfunction.js'></script>
-</head> -->
+<head>
+  <script src='index.js'></script>
+  <link type="text/css" rel="stylesheet" href="index.css">
+</head>
 
 <body onload="fetchjson()">
 
@@ -14,24 +15,5 @@
   <div id="container2"></div>
 </main>
 
-<script type="text/javascript">
-	function fetchjson() {
-	  fetch('https://jsonbox.io/box_58b4614e3b01727b0061')
-	  .then(response => response.json())
-	  .then(data => { 
-	    data.forEach(item => {
-	    	const element = document.createElement('p');
-	    	element.textContent = `${item.string}`;
-	    	container1.appendChild(element);
-		    
-		    item.array.forEach(V=>{
-		    	const element = document.createElement('p');
-		    	element.textContent = `${V.name}--${V.age}--${V.gender}`;
-		    	container2.appendChild(element);
-		    });
-	    });
-	  });
-	}
-</script>
 </body>
 </html>
